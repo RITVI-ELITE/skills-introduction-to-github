@@ -1,0 +1,7 @@
+#INHERITANCE
+CLASS TEST(SELF,DUMMY):
+  DEF __INIT__ (self):
+    SELF.D=DUMMY
+  DEF TASK(TASK):
+    return self.D +"THIS IS TEXT"
+
